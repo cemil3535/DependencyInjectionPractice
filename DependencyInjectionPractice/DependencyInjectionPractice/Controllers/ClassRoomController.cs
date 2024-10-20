@@ -18,7 +18,7 @@ namespace DependencyInjectionPractice.Controllers
         [HttpGet]
         public IActionResult GetTeacherInfo()
         {
-            // ClassRoom içerisindeki Teacher bilgisini döndürüyoruz
+            
             _teacher.GetInfo();
 
             return Ok();
